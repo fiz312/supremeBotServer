@@ -1,3 +1,7 @@
+.idea/
+.settings/
+/out/production
+src/main/java/server/security/repository/UserInMemoryRepository.java
 .gradle
 /build/
 
