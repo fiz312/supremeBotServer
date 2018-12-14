@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="http://localhost:8080/app/order.css" />
+	</head>
+	<body>
+		<div id="container">
+			<label><span class="text">Imię: </span><div class="input"><input id="name" type="text" ng-model="name"/></div></label>
+			<label><span class="text">Email: </span><div class="input"><input id="email" type="text" ng-model="email"/></div></label>
+			<label><span class="text">Nr. tel: </span><div class="input"><input id="telephoneNumber" type="text" ng-model="telephoneNumber"/></div></label>
+
+			<label><span class="text">Adres 1: </span><div class="input"><input id="address1" type="text" ng-model="address1"/></div></label>
+			<label><span class="text">Adres 2: </span><div class="input"><input id="address2" type="text" ng-model="address2"/></div></label>
+			<label><span class="text">Adres 3: </span><div class="input"><input id="address3" type="text" ng-model="address3"/></div></label>
+			<label><span class="text">Miasto: </span><div class="input"><input id="city" type="text" ng-model="city"/></div></label>
+			<label><span class="text">Kod pocztowy: </span><div class="input"><input id="postcode" type="text" ng-model="postcode"/></div></label>
+			<label><span class="text">Kraj: </span><select id="country">
+				<option value="POLAND" id="POLAND">Polska</option>
+			</select></label>
+
+			<label><span class="text">Rodzaj zakupu: </span><select id="buyType">
+				<option value="VISA" id="VISA">Visa</option>
+				<option value="PAYPAL" id="PAYPAL">PayPal</option>
+			</select></label>
+			<label><span class="text">Nr. karty: </span><div class="input"><input id="cardNumber" type="text" ng-model="cardNumber"/></div></label>
+			<label><span class="text">CW: </span><div class="input"><input id="cw" type="text" ng-model="cw"/></div></label>
+			<label><span class="text">Miesiąc wygaśnięcia: </span><div class="input"><input id="expMonth" type="text" ng-model="expMonth"/></div></label>
+			<label><span class="text">Rok wygaśnięcia: </span><div class="input"><input id="expYear" type="text" ng-model="expYear"/></div></label>
+
+			<label>Wykonaj: <input type="checkbox" id="execute"/></label>
+
+			<label><span class="text">Nazwa: </span><div class="input"><input id="itemName" type="text" ng-model="itemName"/></div></label>
+			<label><span class="text">Zdjęcie: </span><div class="input"><input id="image" type="text" ng-model="image"/></div></label>
+			<label><span class="text">Kategoria: </span><div class="input"><input id="category" type="text" ng-model="category"/></div></label>
+			<button id="update">Aktualizuj</button>
+		</div>
+	</body>
+</html>

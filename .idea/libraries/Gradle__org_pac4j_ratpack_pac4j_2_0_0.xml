@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.pac4j:ratpack-pac4j:2.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pac4j/ratpack-pac4j/2.0.0/45eed9de7b4bc99753553133b437a09840aff3b4/ratpack-pac4j-2.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pac4j/ratpack-pac4j/2.0.0/8969002d777b7ebe3bc1433aacc6cbda197fd03e/ratpack-pac4j-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

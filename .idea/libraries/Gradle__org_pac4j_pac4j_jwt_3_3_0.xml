@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.pac4j:pac4j-jwt:3.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pac4j/pac4j-jwt/3.3.0/f1b754ab02e7e307a51fd404d5e151ad4f603c79/pac4j-jwt-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pac4j/pac4j-jwt/3.3.0/217b59dfeb0bc83686fb422bfb8c0f979a0500bb/pac4j-jwt-3.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

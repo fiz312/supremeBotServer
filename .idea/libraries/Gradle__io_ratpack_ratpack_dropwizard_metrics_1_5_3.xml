@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.ratpack:ratpack-dropwizard-metrics:1.5.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-dropwizard-metrics/1.5.3/4fd92017869a92c924d7083dacb1def3485ae3f/ratpack-dropwizard-metrics-1.5.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-dropwizard-metrics/1.5.3/2627718e3f6c8c394ea867240fc744f16c6a473f/ratpack-dropwizard-metrics-1.5.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

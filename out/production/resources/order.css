@@ -1,0 +1,52 @@
+body {
+}
+label {
+  font-size: 110%;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5px;
+  display: block;
+  box-sizing: border-box;
+}
+#container {
+  padding-top: 10%;
+  width: 70vw;
+  max-width: 500px;
+  margin: auto;
+  height: 100vh;
+  background: #FFF;
+  padding: 20px;
+  overflow: scroll;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+input {
+  float: right;
+  border-radius: 5px;
+  border: 2px solid #8b8b8b;
+  height: 25px;
+  box-sizing: border-box;
+}
+.text {
+  min-width: 170px;
+  width: 50%;
+  float: left;
+}
+.input {
+  min-width: 145px;
+  width: 50%;
+  float: left;
+}
+select {
+  float: right;
+  border-radius: 5px;
+  border: 2px solid #8b8b8b;
+  height: 25px;
+  box-sizing: border-box;
+}
+button {
+  float: right;
+}
