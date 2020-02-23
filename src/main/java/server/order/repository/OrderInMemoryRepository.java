@@ -30,13 +30,13 @@ public class OrderInMemoryRepository {
 	}
 	
 	private void populateMap() {
-		Address address = new Address("19 Kasztanowa", "piekoszyn", "Poland", "Kielce", "26-000", Country.POLAND);
-		ClientDetails clientDetails = new ClientDetails("Kac Rob", "mustang19@deb.pl", "000000000");
-		CardDetails cardDetails = new CardDetails(BuyType.PAYPAL, "23425432534534534", "12", "2014", "999");
+		Address address = new Address("1 Kasz", "pie", "Pol", "K", "2", Country.POLAND);
+		ClientDetails clientDetails = new ClientDetails("Ka", "mustan", "0000");
+		CardDetails cardDetails = new CardDetails(BuyType.PAYPAL, "23434534534", "2", "14", "99");
 		OrderConfiguration orderConfiguration = new OrderConfiguration(clientDetails, address, cardDetails);
-		Item item = new Item("GORE-TEX 6-Panel", "https://assets.supremenewyork.com/158616/ma/7vgGKPEPU-A.jpg" , "hats");
+		Item item = new Item("GO-Panel", "https://asGKPEPU-A.jpg" , "hats");
 		Order order = new Order(orderConfiguration, false, item);
-		orderMap.put("Raberr", order);
+		orderMap.put("rr", order);
 	}
 
 	public OrderChangeStatus modifyOrder(final String login, final Order order) {
